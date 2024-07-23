@@ -25,7 +25,7 @@ resource "aws_instance" "mongo" {
     Name = "mongo.dev"
   }
 }
-  resource "aws_route53_record" "frontend" {
+  resource "aws_route53_record" "mongo" {
     zone_id = Z07887863W5D2X6RVH2WV
     name    = "mongo.dev.devrobo.online"
     type    = "A"
