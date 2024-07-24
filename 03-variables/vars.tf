@@ -50,5 +50,5 @@ output "1" {
 }
 
 output "m" {
-  value = "Course Name - ${var.m}["Course"], Trainer Name - ${var.m["trainer"]}"
+  value = "Course Name - ${var.m["Course"]}, Trainer Name - ${var.m["trainer"]}"
 }
